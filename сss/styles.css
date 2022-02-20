@@ -239,11 +239,9 @@ address {
   align-items: center;
   background-color: #f5f4fa;
   margin-bottom: 30px;
-  width: 270px;
   height: 120px;
   border-radius: 4px;
 }
-
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -334,11 +332,12 @@ address {
 .social-list-link:focus {
   background-color: var(--accent-color);
 }
-
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
   fill: var(--primary-white-color);
 }
+
+/* ПОСТОЯННЫЕ КЛИЕНТЫ */
 
 /*///////////////////////ВТОРАЯ СТРАНИЦА/////////////////////////////  */
 /*ПОРТФОЛИО */
