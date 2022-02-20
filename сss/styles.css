@@ -110,19 +110,29 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 .nav-link {
   color: var(--text-primary-color);
 }
 .contact-header-link {
   color: var(--text-secondary-color);
+  display: flex;
+  align-items: center;
 }
 .nav-link:focus,
 .nav-link:hover,
 .contact-header-link:focus,
 .contact-header-link:hover {
   color: var(--accent-color);
+}
+.contact-icon {
+  fill: var(--text-secondary-color);
+  margin-right: 10px;
+}
+.contact-header-link:focus .contact-icon,
+.contact-header-link:hover .contact-icon {
+  fill: var(--accent-color);
 }
 .current {
   color: var(--accent-color);
