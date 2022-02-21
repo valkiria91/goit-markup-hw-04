@@ -149,6 +149,13 @@ address {
   font-style: normal;
   margin-top: 20px;
 }
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.adress-panel {
+  margin-right: 70px;
+}
 .adress-street-item {
   margin-bottom: 9px;
 }
@@ -171,7 +178,37 @@ address {
 .contact-footer:focus {
   color: var(--accent-color);
 }
-
+.join-panel-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
+}
+.footer-social-list {
+  display: flex;
+}
+.footer-social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+.footer-social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer-social-list-icon {
+  fill: var(--primary-white-color);
+}
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+  background-color: var(--accent-color);
+}
 /* MAIN*/
 /* HERO */
 .hero {
