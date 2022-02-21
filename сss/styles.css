@@ -225,7 +225,6 @@ address {
 /* ОСОБЕННОСТИ */
 .features-list {
   display: flex;
-  align-items: center;
 }
 .features-item {
   flex-basis: calc((100% - 90px) / 4);
@@ -237,9 +236,10 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 25px 100px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
-  height: 120px;
+  min-height: 120px;
   border-radius: 4px;
 }
 .features-title {
@@ -338,7 +338,34 @@ address {
 }
 
 /* ПОСТОЯННЫЕ КЛИЕНТЫ */
-
+.clients-list {
+  display: flex;
+}
+.clients-item {
+  flex-basis: calc((100% - 150px) / 6);
+}
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 92px;
+  border: 1px solid var(--icon-primary-color);
+  border-radius: 4px;
+}
+.clients-icon {
+  fill: var(--icon-primary-color);
+}
+.clients-link:hover,
+.client-link:focus {
+  border: 1px solid var(--accent-color);
+}
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
+  fill: var(--accent-color);
+}
 /*///////////////////////ВТОРАЯ СТРАНИЦА/////////////////////////////  */
 /*ПОРТФОЛИО */
 .button-list {
