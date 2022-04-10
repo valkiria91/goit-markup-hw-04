@@ -275,7 +275,6 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 25px 100px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
   min-height: 120px;
