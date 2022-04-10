@@ -115,11 +115,13 @@ img {
 }
 .nav-link {
   color: var(--text-primary-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-header-link {
   color: var(--text-secondary-color);
   display: flex;
   align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link:focus,
 .nav-link:hover,
@@ -130,6 +132,7 @@ img {
 .contact-icon {
   fill: var(--text-secondary-color);
   margin-right: 10px;
+  transition: fill 250s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-header-link:focus .contact-icon,
 .contact-header-link:hover .contact-icon {
@@ -173,6 +176,7 @@ address {
 }
 .contact-footer {
   color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .contact-footer:hover,
 .contact-footer:focus {
@@ -201,6 +205,7 @@ address {
   width: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-list-icon {
   fill: var(--primary-white-color);
@@ -251,6 +256,7 @@ address {
   border: 1px solid transparent;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -363,9 +369,11 @@ address {
   height: 44px;
   width: 44px;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-icon {
   fill: var(--icon-primary-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-link:hover,
 .social-list-link:focus {
@@ -393,9 +401,11 @@ address {
   min-height: 92px;
   border: 1px solid var(--icon-primary-color);
   border-radius: 4px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-icon {
   fill: var(--icon-primary-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-link:hover,
 .client-link:focus {
@@ -426,6 +436,7 @@ address {
   min-width: 73px;
   border: 1px solid transparent;
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-button-item:not(:last-child) {
   margin-right: 8px;
@@ -453,6 +464,7 @@ address {
 }
 .portfolio-card-link {
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-card-link:hover,
 .portfolio-card-link:focus {
